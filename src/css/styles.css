@@ -1,14 +1,23 @@
 * {
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
+  background-color: blanchedalmond;
   margin: 0;
 }
 
 .container {
   margin: 1rem;
   text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .nav {
@@ -18,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .site-title {

@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Home</h1>
+  return (
+  <>
+    <header className="header">Welcome to Chess Nuts!</header>
+  </>
+  )
 }
